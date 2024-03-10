@@ -1,0 +1,83 @@
+.repo-card {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+  box-sizing: border-box;
+  height: 120px;
+  padding: 1.3rem;
+  margin: 10px 10px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.repo-title {
+  text-decoration: none;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0366d6;
+}
+.pill {
+  border: 1px solid #808080;
+  color: #808080;
+  width: 50px;
+  height: 15px;
+  padding: 1px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.repo-description {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  color: #808080;
+}
+
+.popularity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.popularity .technology-used,
+.popularity .stars,
+.popularity .fork,
+.popularity p {
+  display: flex;
+  color: #808080;
+  align-items: center;
+}
+
+.stars svg,
+.fork svg {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+.repo-description svg {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+@media (max-width: 863px) {
+  .repo-card {
+    gap: 5px;
+  }
+  .last-update {
+    font-size: 10px;
+  }
+  .technology-used {
+    font-size: 10px;
+  }
+  .repo-title {
+    font-size: 10px;
+  }
+}
+@media (max-width: 933px) {
+  .last-update {
+    font-size: 10px;
+  }
+}

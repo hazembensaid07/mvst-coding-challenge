@@ -1,0 +1,64 @@
+.card-search {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 425px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px 0 rgba(153, 153, 153, 0.25);
+  padding: 0.75rem;
+}
+
+.card-image {
+  border-radius: 8px;
+  background-image: url("https://github.blog/wp-content/uploads/2023/05/1200.630-Security-wLogo.png?fit=1200%2C630");
+  padding-bottom: 65%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: 0 5%;
+  position: relative;
+}
+
+.card-heading {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  right: 10%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.222;
+}
+
+.card-heading small {
+  display: block;
+  font-size: 0.75em;
+  font-weight: 400;
+  margin-top: 0.25em;
+}
+
+.card-form {
+  padding: 2rem 1rem 0;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 1.5rem;
+}
+
+.input + .input {
+  margin-top: 1.5rem;
+}
+
+.action {
+  margin-top: 2rem;
+}
