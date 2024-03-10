@@ -1,7 +1,7 @@
 ## MVST CODING CHALLENGE
 
 This project was undertaken as part of a Coding challenge where the objective was to replicate GitHub's profile page. The development stack included ReactJS. The GitHub GraphQL API was utilized to enable the efficient delivery of desired data to the frontend using Apollo client.
-
+Deployment Link [here](https://mvst-coding-challengee.netlify.app/).
 ![plot](./src/assets/image1.png)
 ![plot](./src/assets/image2.png)
 ![plot](./src/assets/image3.png)
@@ -24,6 +24,7 @@ This project was undertaken as part of a Coding challenge where the objective wa
 - Incorporate interaction with github user features like following and unfollowing.
 - Include unit and integration tests.
 - Give the repositories view pagination.
+- Deploy to AWS [here](https://medium.com/@hazembensaid195/deploy-a-react-application-on-aws-s3-aws-cloudfront-route53-aws-certificate-manager-using-bdafc8ff7e25).
 
 ## Available Scripts
 
