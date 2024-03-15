@@ -31,7 +31,8 @@ Deployment Link <a href="https://mvst-coding-challengee.netlify.app/" target="_b
 ## Available Scripts
 
 Don't forget to install dependencies first `npm install`
-
+Please specify your personal access token to authenticate the GitHub GraphQL API by setting it in the environment variable. Assign your token as follows in .env: 
+VITE_GITHUB_TOKEN=your_personal_access_token_here."
 In the project directory, you can run:
 
 ### `npm run dev`
